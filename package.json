@@ -1,0 +1,22 @@
+{
+  "name": "js1-friday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aglines-epicodus/js1-friday.git"
+  },
+  "keywords": [
+    "doctor"
+  ],
+  "author": "Andrew Glines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aglines-epicodus/js1-friday/issues"
+  },
+  "homepage": "https://github.com/aglines-epicodus/js1-friday#readme"
+}
