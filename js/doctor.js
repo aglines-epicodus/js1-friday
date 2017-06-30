@@ -10,6 +10,7 @@ Doctor.prototype.getDoctor = function(medicalIssue) {
   firstNames = [];
   lastNames = [];
   $(".showDoctor").empty();
+  $(".showDoctor").text("Here is a list of recommended doctors: ");
   for (i=0 ; i<20 ; i++) {
     if ( result.data[i] !== undefined ) {
       firstNames[i] = result.data[i].profile.first_name;
