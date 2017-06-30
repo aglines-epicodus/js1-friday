@@ -1,14 +1,12 @@
 var Doctor = require('./../js/doctor.js').getDoctorModule;
 
-// var displayDoctor = function(malady, doctorData) {
-//   $('.showDoctor').text("Your suggested doctor is " + doctorData + ".");
-// }
-
 $(document).ready(function(){
   var newDoctorObject = new Doctor();
-    // $("#formOne").submit(function(){
-    //   var medicalIssue = $("input#choice1").val();
-    medicalIssue = 'acne';
+    $("form#formOne").submit(function(){
+      var medicalIssue = $("#choice1").val();
+      event.preventDefault();
+      console.log("medicalIssue is " + medicalIssue);
+    // medicalIssue = 'acne';
     newDoctorObject.getDoctor(medicalIssue);
-  // });
+  });
 });
