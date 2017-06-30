@@ -9,16 +9,16 @@ Doctor.prototype.getDoctor = function(medicalIssue) {
 // TEST = STORE IN ARRAY
   firstNames = [];
   lastNames = [];
-  for (i=0 ; i<10 ; i++){
+  $(".showDoctor").empty();
+  for (i=0 ; i<20 ; i++) {
     if ( result.data[i] !== undefined ) {
       firstNames[i] = result.data[i].profile.first_name;
       lastNames[i] = result.data[i].profile.last_name;
       console.log(firstNames[i], lastNames[i]);
+
+      $(".showDoctor").append("<p>" + firstNames[i] + " " + lastNames[i] + "</p>");
     }
   };
-
-
-
 
 // TESTING FOREACH
     // $.each(result.data[0].profile, function(index, value) {

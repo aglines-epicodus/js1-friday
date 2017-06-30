@@ -8,7 +8,7 @@ This app will accept input in the form of user-selected medical conditions, and 
 
 |  behavior | input  | output  |
 |---|---|---|
-| User will select a malady from a dropdown list, and a doctor name will be returned | "Coughing" | "Dr. Whosits" |
+| User will select a malady from a dropdown list, and a list of doctor names will be returned | "Common Cold" | "Jan Whosits, John Whatsits" |
 
 
 
