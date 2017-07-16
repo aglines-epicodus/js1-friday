@@ -17,7 +17,8 @@ This app will accept input in the form of user-selected medical conditions, and 
 * Go to Github repository page at https://github.com/aglines-epicodus/js1-friday.git
 * Click the "download or clone" button and copy the link.
 * In your computer's terminal type "git clone" & paste the copied link.
-* In your computer's terminal type "npm install" and "bower install". 
+* Navigate into the project directory.
+* In your computer's terminal type "npm install" and "bower install".
 * Once downloaded you can open the index.html file in the browser of your choice.
 * You can view the code using the text editor of your choice as well.
 
